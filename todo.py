@@ -10,8 +10,10 @@ def add_task(task):
 # Step 3: View tasks
 def view_tasks():
     print(tasks)
+    
 # Step 4: Delete a task
-
+def delete_task(task):
+    tasks.pop(task)
 
 # Step 5: Mark task complete
 
